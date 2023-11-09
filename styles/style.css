@@ -1,0 +1,99 @@
+body,
+button {
+  background-color: rgb(5, 5, 3);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  margin: 0 25%;
+  background-color: antiquewhite;
+
+}
+
+header h1 {
+    padding: 1em;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header ol  {
+    padding: 1em;
+    margin-left: 2em;
+}
+
+header li {
+    padding: 1em;
+}
+
+main {
+  margin: 0 25%;
+  margin-top: 5%;
+  background-color: antiquewhite;
+  text-align: center;
+}
+
+#table,
+.player-table {
+  max-width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 3em;
+  border-collapse: collapse;
+
+  border: 1px solid black;
+}
+
+form {
+  padding-top: 1.5em;
+}
+
+
+#player-confirm {
+    color:antiquewhite;
+    padding: 1.5em;
+    background-color: rgb(5, 5, 3);
+    margin-top: 2em;
+
+}
+
+
+
+#extractor {
+  width: 30%;
+  padding: 2.5em 0;
+  background-color: rgb(5, 5, 3);
+  color: antiquewhite;
+  font-size: 24px;
+}
+
+#table span {
+  display: block;
+  width: 10%;
+  padding: 2em 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.highlighted {
+  background-color: red;
+}
+
+#player-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.player-table {
+  width: 40%;
+  margin: 3em auto;
+}
+
+.player-table span {
+  width: 20%;
+  padding: 2em 0;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
